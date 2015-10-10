@@ -3,7 +3,7 @@ date: 2015-09-23 17:45:41
 tags: Hexo
 ---
 
-欢迎使用[Hexo](http://hexo.io/zh-cn/)，这是你的第一篇文章。可以从[官方文档](http://hexo.io/zh-cn/docs/)查看更多信息。使用过程中遇到任何问题，可以在[问题解答](http://hexo.io/zh-cn/docs/troubleshooting.html)页面找到答案或者到[GitHub](https://github.com/hexojs/hexo/issues)提交你的问题。
+欢迎使用[Hexo](http://hexo.io/zh-cn/)，这是你的第一篇文章。可以从[官方文档](http://hexo.io/zh-cn/docs/)查看更多信息。使用过程中遇到任何问题，可以在[问题解答](http://hexo.io/zh-cn/docs/troubleshooting.html)页面找到答案或者到[GitHub](https://github.com/hexojs/hexo/issues)提交问题。
 
 ## 开始
 
