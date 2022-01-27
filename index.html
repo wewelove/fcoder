@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/fcoder/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/fcoder/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/fcoder/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/fcoder/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/fcoder/css/main.css">
+
+
+<link rel="stylesheet" href="/fcoder/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"wewelove.github.io","root":"/fcoder/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="好好学习，天天向上">
+<meta property="og:type" content="website">
+<meta property="og:title" content="思学 - Sixue">
+<meta property="og:url" content="http://wewelove.github.io/fcoder/index.html">
+<meta property="og:site_name" content="思学 - Sixue">
+<meta property="og:description" content="好好学习，天天向上">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Hao">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content=" NexT">
+<meta property="article:tag" content=" php">
+<meta property="article:tag" content=" laravel">
+<meta property="article:tag" content=" yii2">
+<meta property="article:tag" content=" css">
+<meta property="article:tag" content=" js">
+<meta property="article:tag" content=" sass">
+<meta property="article:tag" content=" vue.js">
+<meta property="article:tag" content=" antd">
+<meta property="article:tag" content=" docker">
+<meta property="article:tag" content=" mysql">
+<meta property="article:tag" content=" ubuntu">
+<meta property="article:tag" content=" java">
+<meta property="article:tag" content=" spring">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://wewelove.github.io/fcoder/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false
+  };
+</script>
+
+  <title>思学 - Sixue</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/fcoder/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">思学 - Sixue</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学而不思则罔，思而不学则怠</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/fcoder/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/fcoder/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/fcoder/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/fcoder/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/fcoder/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2022/01/27/yapi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2022/01/27/yapi/" class="post-title-link" itemprop="url">内网部署 YApi</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-27 10:59:54 / 修改时间：21:04:04" itemprop="dateCreated datePublished" datetime="2022-01-27T10:59:54+08:00">2022-01-27</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/tools/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Ubuntu 20.04 虚拟机下载手动部署 <a href="https://hellosean1025.github.io/yapi/index.html" target="_blank" rel="noopener">YApi</a> 服务。</p>
+<ul>
+<li>适用 Yapi v1.10.x 版本</li>
+</ul>
+<h2 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h2><ul>
+<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">nodejs</a> 版本 v12.x；</li>
+<li><a href="https://www.mongodb.org.cn/" target="_blank" rel="noopener">mongodb</a> 版本 v4.4；</li>
+</ul>
+<h3 id="安装-nodejs"><a href="#安装-nodejs" class="headerlink" title="安装 nodejs"></a>安装 nodejs</h3><p>系统默认 nodejs 版本为 10.x ，直接安装可能失败，需要升级至 12.x 版本。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 导入秘钥，注册源，更新</span></span><br><span class="line">curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">sudo apt install -y nodejs</span><br><span class="line"></span><br><span class="line"><span class="comment"># 替换 npm 源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure>
+
+<h3 id="安装-mongodb"><a href="#安装-mongodb" class="headerlink" title="安装 mongodb"></a>安装 mongodb</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 导入秘钥</span></span><br><span class="line">wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -</span><br><span class="line"></span><br><span class="line"><span class="comment"># 注册源</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse"</span> | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list</span><br><span class="line"></span><br><span class="line"><span class="comment"># 更新并安装</span></span><br><span class="line">sudo apt-get update &amp;&amp; sudo apt-get install -y mongodb-org</span><br></pre></td></tr></table></figure>
+
+<p>如果以上操作不成功，请求参考官方 <a href="https://docs.mongodb.com/v4.4/tutorial/install-mongodb-on-ubuntu/" target="_blank" rel="noopener">安装过程</a>。</p>
+<p>安装完成后将 mongodb 设置为系统服务，开机启动：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl <span class="built_in">enable</span> mongod</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h2><p>检查环境：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v <span class="comment"># v12.22.8</span></span><br><span class="line">npm -v <span class="comment"># 6.14.15</span></span><br></pre></td></tr></table></figure>
+
+<p>使用官方推荐的可视化部署方式：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 全局安装 YApi 命令行工具</span></span><br><span class="line">sudo npm install -g yapi-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动可视化安装界面</span></span><br><span class="line">sudo yapi server <span class="comment"># 在浏览器打开 http://0.0.0.0:9090 访问。非本地服务器，请将 0.0.0.0 替换成指定的域名或ip</span></span><br></pre></td></tr></table></figure>
+
+<p>根据提示在浏览器中打开安装页面，输入相关信息，点击 <strong>开始部署</strong>：</p>
+<p><img src="/fcoder/images/yapi.png" alt=""></p>
+<p>安装完成后注意结尾提示，注意保存管理员账号和密码：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">初始化管理员账号成功,账号名：<span class="string">"admin@admin.com"</span>，密码：<span class="string">"ymfe.org"</span></span><br><span class="line">部署成功，请切换到部署目录，输入： <span class="string">"node vendors/server/app.js"</span> 指令启动服务器, 然后在浏览器打开 http://127.0.0.1:3000 访问</span><br></pre></td></tr></table></figure>
+
+<h2 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h2><p>使用 pm2 管理应用进程:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装 pm2</span></span><br><span class="line">sudo npm install pm2 -g</span><br><span class="line"></span><br><span class="line"><span class="comment"># pm2 管理 yapi 服务，请求注意修改 Yapi 安装目录</span></span><br><span class="line">sudo pm2 start <span class="string">"/&lt;dir&gt;/yapi/vendors/server/app.js"</span> --name yapi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看服务信息</span></span><br><span class="line">sudo pm2 info yapi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止服务</span></span><br><span class="line">sudo pm2 stop yapi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启服务</span></span><br><span class="line">sudo pm2 restart yapi</span><br></pre></td></tr></table></figure>
+
+<p>将 pm2 设置为系统服务，开机启动 YApi：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 设置 pm2 为系统服务</span></span><br><span class="line">sudo pm2 upstart</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存已启动的应用</span></span><br><span class="line">sudo pm2 save</span><br></pre></td></tr></table></figure>
+
+<p>更多请参考 pm2 <a href="https://pm2.keymetrics.io/docs/usage/quick-start/" target="_blank" rel="noopener">官方文档</a>。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2021/08/17/css-flexbox/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2021/08/17/css-flexbox/" class="post-title-link" itemprop="url">CSS 弹性布局</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-08-17 07:47:23" itemprop="dateCreated datePublished" datetime="2021-08-17T07:47:23+08:00">2021-08-17</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/fronted/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>Flexbox 是 flexible box 的简称（注：意思是“灵活的盒子容器”），是 CSS3 引入的新的布局模式。它决定了元素如何在页面上排列，使它们能在不同的屏幕尺寸和设备下可预测地展现出来。</p>
+</blockquote>
+<p>它之所以被称为 Flexbox ，是因为它能够扩展和收缩 flex 容器内的元素，以最大限度地填充可用空间。与以前布局方式（如 table 布局和浮动元素内嵌块元素）相比，Flexbox 是一个更强大的方式：</p>
+<ul>
+<li>在不同方向排列元素。</li>
+<li>重新排列元素的显示顺序。</li>
+<li>更改元素的对齐方式。</li>
+<li>动态地将元素装入容器。</li>
+</ul>
+<h2 id="1、基本概念"><a href="#1、基本概念" class="headerlink" title="1、基本概念"></a>1、基本概念</h2><p>采用 Flex 布局的元素，称为 Flex 容器（flex container），简称”容器”。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称”项目”。</p>
+<p><img src="/fcoder/images/css-flexbox-01.png" alt=""></p>
+<p>在 Flexbox 模型中，有三个核心概念：</p>
+<ul>
+<li>flex 项（注：也称 flex 子元素），需要布局的元素。</li>
+<li>flex 容器，其包含 flex 项。</li>
+<li>排列方向（direction），这决定了 flex 项的布局方向。</li>
+</ul>
+<h2 id="2、容器属性"><a href="#2、容器属性" class="headerlink" title="2、容器属性"></a>2、容器属性</h2><p><img src="/fcoder/images/css-flexbox-02.png" alt=""></p>
+<h3 id="2-1-flex-direction"><a href="#2-1-flex-direction" class="headerlink" title="2.1  flex-direction:"></a>2.1  flex-direction:</h3><ul>
+<li>row（默认值）：主轴为水平方向，起点在左端。</li>
+<li>row-reverse：主轴为水平方向，起点在右端。</li>
+<li>column：主轴为垂直方向，起点在上沿。</li>
+<li>column-reverse：主轴为垂直方向，起点在下沿。</li>
+</ul>
+<p><img src="/fcoder/images/css-flexbox-03.png" alt=""></p>
+<h3 id="2-2-flex-wrap"><a href="#2-2-flex-wrap" class="headerlink" title="2.2   flex-wrap:"></a>2.2   flex-wrap:</h3><ul>
+<li>nowrap（默认）：不换行。</li>
+<li>wrap：换行，第一行在上方。</li>
+<li>wrap-reverse：换行，第一行在下方。</li>
+</ul>
+<h3 id="2-3-justify-content"><a href="#2-3-justify-content" class="headerlink" title="2.3  justify-content:"></a>2.3  justify-content:</h3><ul>
+<li>flex-start（默认值）：左对齐。</li>
+<li>flex-end：右对齐。</li>
+<li>center： 居中。</li>
+<li>space-between：两端对齐，项目之间的间隔都相等。</li>
+<li>space-around：每个项目两侧的间隔相等，项目之间的间隔比项目与边框的间隔大一倍。</li>
+</ul>
+<p><img src="/fcoder/images/css-flexbox-04.gif" alt=""></p>
+<h3 id="2-4-align-items"><a href="#2-4-align-items" class="headerlink" title="2.4  align-items:"></a>2.4  align-items:</h3><ul>
+<li>flex-start：交叉轴的起点对齐。</li>
+<li>flex-end：交叉轴的终点对齐。</li>
+<li>center：交叉轴的中点对齐。</li>
+<li>baseline: 项目的第一行文字的基线对齐。</li>
+<li>stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。</li>
+</ul>
+<p><img src="/fcoder/images/css-flexbox-05.gif" alt=""></p>
+<h3 id="2-5-align-content"><a href="#2-5-align-content" class="headerlink" title="2.5  align-content:"></a>2.5  align-content:</h3><p>定义了多根轴线的对齐方式，如果项目只有一根轴线，那么该属性将不起作用</p>
+<ul>
+<li>flex-start：与交叉轴的起点对齐。</li>
+<li>flex-end：与交叉轴的终点对齐。</li>
+<li>center：与交叉轴的中点对齐。</li>
+<li>space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。</li>
+<li>space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。</li>
+<li>stretch（默认值）：轴线占满整个交叉轴。</li>
+</ul>
+<p><img src="/fcoder/images/css-flexbox-06.png" alt=""></p>
+<p><strong>结合 justify-content和align-items，看看在 flex-direction 两个不同属性值的作用下，轴心有什么不同：</strong></p>
+<p><img src="/fcoder/images/css-flexbox-07.gif" alt=""></p>
+<h2 id="3、项目属性"><a href="#3、项目属性" class="headerlink" title="3、项目属性"></a>3、项目属性</h2><p><img src="/fcoder/images/css-flexbox-08.png" alt=""></p>
+<h3 id="3-1-order属性"><a href="#3-1-order属性" class="headerlink" title="3.1 order属性"></a>3.1 order属性</h3><p><img src="/fcoder/images/css-flexbox-09.png" alt=""></p>
+<h3 id="3-2-flex-grow属性"><a href="#3-2-flex-grow属性" class="headerlink" title="3.2 flex-grow属性"></a>3.2 flex-grow属性</h3><p><code>flex-grow</code> 属性定义项目的放大比例，默认为 0，即如果存在剩余空间，也不放大。</p>
+<p>如果所有项目的 <code>flex-grow</code> 属性都为 1，则它们将等分剩余空间（如果有的话）。如果一个项目的 <code>flex-grow</code> 属性为 2，其他项目都为 1，则前者占据的剩余空间将比其他项多一倍。</p>
+<p><img src="/fcoder/images/css-flexbox-10.png" alt=""></p>
+<h3 id="3-3-flex-shrink属性"><a href="#3-3-flex-shrink属性" class="headerlink" title="3.3 flex-shrink属性"></a>3.3 flex-shrink属性</h3><p><code>flex-shrink</code> 属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.item</span> &#123;</span><br><span class="line">  <span class="attribute">flex-shrink</span>: &lt;number&gt;; <span class="comment">/* default 1 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/fcoder/images/css-flexbox-11.jpg" alt=""></p>
+<p>如果所有项目的 <code>flex-shrink</code> 属性都为 1，当空间不足时，都将等比例缩小。如果一个项目的 <code>flex-shrink</code> 属性为 0，其他项目都为 1，则空间不足时，前者不缩小。</p>
+<p>负值对该属性无效。</p>
+<h3 id="3-4-align-self属性"><a href="#3-4-align-self属性" class="headerlink" title="3.4 align-self属性"></a>3.4 align-self属性</h3><p><code>align-self</code> 属性允许单个项目有与其他项目不一样的对齐方式，可覆盖 <code>align-items</code> 属性。默认值为 <code>auto</code>，表示继承父元素的 <code>align-items</code> 属性，如果没有父元素，则等同于 <code>stretch</code>。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.item</span> &#123;</span><br><span class="line">  <span class="attribute">align-self</span>: auto | flex-start | flex-end | center | baseline | stretch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/fcoder/images/css-flexbox-12.png" alt=""></p>
+<p><strong>弹性布局默认不改变项目的宽度，但是它默认改变项目的高度。如果项目没有显式指定高度，就将占据容器的所有高度。</strong></p>
+<blockquote>
+<p>参考：<br><a href="https://www.ruanyifeng.com/blog/" target="_blank" rel="noopener">阮一峰的网络日志</a><br><a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank" rel="noopener">Flex 布局教程：语法篇</a><br><a href="http://www.ruanyifeng.com/blog/2018/10/flexbox-form.html" target="_blank" rel="noopener">Flexbox 布局的最简单表单</a></p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2021/08/10/node-sass/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2021/08/10/node-sass/" class="post-title-link" itemprop="url">安装 node-sass 正确姿势</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-08-10 09:09:27" itemprop="dateCreated datePublished" datetime="2021-08-10T09:09:27+08:00">2021-08-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:05:51" itemprop="dateModified" datetime="2022-01-27T21:05:51+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/fronted/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>windows 下面安装 node-sass，确实令人头痛，正确姿势如下：</p>
+<h2 id="修改-NPM-镜像"><a href="#修改-NPM-镜像" class="headerlink" title="修改 NPM 镜像"></a>修改 NPM 镜像</h2><p>查看当前设置：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># npm 命令</span></span><br><span class="line">npm config get registry</span><br><span class="line"><span class="comment"># yarn 命令</span></span><br><span class="line">yarn config get registry</span><br></pre></td></tr></table></figure>
+
+<p>修改为淘宝镜像：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># npm 命令</span></span><br><span class="line"><span class="comment"># npm config set registry http://registry.npm.taobao.org/</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br><span class="line"><span class="comment"># yarn 命令</span></span><br><span class="line"><span class="comment"># yarn config set registry http://registry.npm.taobao.org/</span></span><br><span class="line">yarn config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-windows-平台编译环境"><a href="#安装-windows-平台编译环境" class="headerlink" title="安装 windows 平台编译环境"></a>安装 windows 平台编译环境</h2><p>需要在管理员权限下安装：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm install -g node-gyp</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装 python 和 vs-build</span></span><br><span class="line"><span class="comment"># 此过程可能长时间没有反映，可从控制面板中检查是否安装成功</span></span><br><span class="line"><span class="comment"># 安装完成后要重新打开命令行窗口</span></span><br><span class="line">npm install -g --production windows-build-tools</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-node-sass"><a href="#安装-node-sass" class="headerlink" title="安装 node-sass"></a>安装 node-sass</h2><p>安装时可以指定 node-sass 镜像地址：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/</span></span><br><span class="line">npm i node-sass --sass_binary_site=https://npmmirror.com/mirrors/node-sass/</span><br></pre></td></tr></table></figure>
+
+<p>成功！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2021/08/10/git-crlf-lf/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2021/08/10/git-crlf-lf/" class="post-title-link" itemprop="url">Git 中 CRLF 与 LF 的转换</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-08-10 08:54:33" itemprop="dateCreated datePublished" datetime="2021-08-10T08:54:33+08:00">2021-08-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/tools/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="换行符在不同的操作系统上的表示"><a href="#换行符在不同的操作系统上的表示" class="headerlink" title="换行符在不同的操作系统上的表示"></a>换行符在不同的操作系统上的表示</h2><p>首先要理解的一点是，对于不同的操作系统，对于换行符的表示是不一样的。也就是说当我们在编辑一个文件，在键盘上按下回车键的时候，对于不同的操作系统保存到文件中的换行符是不一样的。见下表：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">CR: 表示回车\r</span><br><span class="line">LF: 表示换行\n</span><br><span class="line">CRLF: 表示回车换行\r\n</span><br><span class="line"></span><br><span class="line">敲下回车键，不同的操作系统保存到文件中的值：</span><br><span class="line">Windows：使用的是 CRLF &#x3D;&#x3D;&gt; 即 \r\n，文件中保存的是 \r\n</span><br><span class="line">Linux&#x2F;Unix: 使用的是 LF &#x3D;&#x3D;&gt; 即 \n，文件中保存的是 \n</span><br><span class="line">MacOS: 使用的是 CR &#x3D;&#x3D;&gt; 即 \r，文件中保存的是 \r</span><br><span class="line">MacOS X系统：使用的是 LF &#x3D;&#x3D;&gt; 即 \n，文件中保存的是 \n（MacOS X 已经改成和 Unix&#x2F;Linx 一样使用 LF）</span><br></pre></td></tr></table></figure>
+
+<p>问题: 既然不同的操作系统，对于换行符使用不同的表示形式，如果一个团队在开发一个共同的项目，如果你使用的是 windows 系统，而你的小伙伴用的是 Mac 的话，当你们使用 git 协同开发软件时，就会出现换行符不统一的问题。</p>
+<p>虽然对于不同的操作系统，默认的换行符的表示方法不一样，但是编辑器是可以设置在敲下回车键的时候保存的换行符是什么的，比如常用的 vscode 就可以进行设置。直接点击编辑器右下角的 LF 或者 CRLF，出现如下图所示的设置，直接选择即可。在设置完成之后，在敲回车键，保存在文件中的换行符就是你设置的（CRLF 或者是 LF，设置什么就是什么）。</p>
+<p><img src="/fcoder/images/git-crlf-lf.png" alt="vbox-guest-additions-01"> </p>
+<h2 id="Git-会自动对换行符进行转换"><a href="#Git-会自动对换行符进行转换" class="headerlink" title="Git 会自动对换行符进行转换"></a>Git 会自动对换行符进行转换</h2><p>Git 为了解决上面提出的问题，会自动对换行符进行转换。转换的方案有 3 种：</p>
+<ol>
+<li><p>在提交时将 CRLF 转换为 LF，在拉取（检出 checkout）时将 UNIX 换行符（LF）替换成 CRLF。（Windows 系统推荐使用，我们在 windows 上安装 git 的时候，如果一路 next，默认是使用这个方案）。</p>
+</li>
+<li><p>在提交时将 CRLF 转换为 LF，在拉取（检出 checkout）时不进行转换。（Linux/Unix 和 MacOS 和 MacOS X 推荐使用，在 Unix 或者类 Unix 操作系统上安装 git，默认使用这种方案）。</p>
+</li>
+<li><p>不进行转换（这种方案对于跨平台项目不推荐使用）。</p>
+</li>
+</ol>
+<p>可以发现，如果不使用第3种方案，那么在 Git 仓库（包括本地仓库和 GitHub 远程仓库）中保存的文件的换行符都是 LF 表示的。</p>
+<h2 id="自己指定换行符转换方案"><a href="#自己指定换行符转换方案" class="headerlink" title="自己指定换行符转换方案"></a>自己指定换行符转换方案</h2><p>我们自己在开发过程中，是可以修改/设置 Git 的换行符转换方案的。修改/设置的方法有 2 种。</p>
+<h3 id="通过-Git-的全局配置进行修改"><a href="#通过-Git-的全局配置进行修改" class="headerlink" title="通过 Git 的全局配置进行修改"></a>通过 Git 的全局配置进行修改</h3><p>设置 autocrlf 属性，在控制台直接运行如下的一条命令就可以设置了：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 提交时转换为 LF，检出时转换为 CRLF</span><br><span class="line">git config --global core.autocrlf <span class="literal">true</span>   </span><br><span class="line"></span><br><span class="line">// 提交时转换为LF，检出时不转换</span><br><span class="line">git config --global core.autocrlf input   </span><br><span class="line"></span><br><span class="line">// 提交检出均不转换</span><br><span class="line">git config --global core.autocrlf <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>上述命令运行之后，会修改 <code>.gitconfig</code> 文件。</p>
+<p>一般在项目中，为了避免项目中同时出现 CRLF 和 LF，还可以开启 safecrlf 检查。当然，如果你的项目自己定义了语法检查规则，例如使用 eslint 去约束换行符必须是 LF，那么当你的文件中出现 CRLF 的时候，eslint 会给你错误提示信息，告诉你不能包含 CRLF，这时候，不开启 safecrlf 也是可以的 （一般建议开启）。</p>
+<p>开启方法如下第一条命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 拒绝提交包含混合换行符的文件 （一般设置为 true）</span><br><span class="line">git config --global core.safecrlf true   </span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 允许提交包含混合换行符的文件</span><br><span class="line">git config --global core.safecrlf false   </span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 提交包含混合换行符的文件时给出警告</span><br><span class="line">git config --global core.safecrlf warn</span><br></pre></td></tr></table></figure>
+
+<p>上述命令运行之后，也会修改<code>.gitconfig</code> 文件。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2020/06/06/npm-package-publish/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2020/06/06/npm-package-publish/" class="post-title-link" itemprop="url">NPM 包发布流程</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-06-06 15:47:02" itemprop="dateCreated datePublished" datetime="2020-06-06T15:47:02+08:00">2020-06-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/fronted/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="注册-NPM-账号"><a href="#注册-NPM-账号" class="headerlink" title="注册 NPM 账号"></a>注册 NPM 账号</h2><p>点击 <a href="https://www.npmjs.com/signup" target="_blank" rel="noopener">注册账号</a>，并完成邮箱验证。</p>
+<h2 id="初始化-NPM-项目"><a href="#初始化-NPM-项目" class="headerlink" title="初始化 NPM 项目"></a>初始化 NPM 项目</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建项目目录</span></span><br><span class="line">mkdir &lt;project&gt;</span><br><span class="line"><span class="comment"># 进入项目目录</span></span><br><span class="line"><span class="built_in">cd</span> &lt;project&gt;</span><br><span class="line"><span class="comment"># 初始化项目</span></span><br><span class="line">npm init</span><br></pre></td></tr></table></figure>
+
+<p>执行上述命令，根据提示输入相关信息，完成后目录下会生成 <code>package.json</code> 文件，内容如下：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"demo"</span>,</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"1.0.0"</span>,</span><br><span class="line">  <span class="attr">"description"</span>: <span class="string">"A demo projcet of npm."</span>,</span><br><span class="line">  <span class="attr">"main"</span>: <span class="string">"index.js"</span>,</span><br><span class="line">  <span class="attr">"scripts"</span>: &#123;</span><br><span class="line">    <span class="attr">"test"</span>: <span class="string">"echo \"Error: no test specified\" &amp;&amp; exit 1"</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"keywords"</span>: [</span><br><span class="line">    <span class="string">"npm"</span></span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">"author"</span>: <span class="string">"hao"</span>,</span><br><span class="line">  <span class="attr">"license"</span>: <span class="string">"ISC"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>name：项目名称</li>
+<li>version： 版本号</li>
+<li>description: 项目描述</li>
+<li>main：包入口文件，默认为 index.js</li>
+<li>repository：代码存放地址（一般是 git 地址）</li>
+<li>keywords：项目关键字，便于搜索</li>
+<li>author：作者</li>
+<li>license：授权协议</li>
+</ul>
+<p>详情请参考：<a href="https://docs.npmjs.com/files/package.json" target="_blank" rel="noopener">package.json</a></p>
+<h2 id="添加用户"><a href="#添加用户" class="headerlink" title="添加用户"></a>添加用户</h2><p>如果你使用的是 taobao 源，要先切换到官方源：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># npm 官方源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry=http://registry.npmjs.org</span><br><span class="line"><span class="comment"># taobao 源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry=http://registry.npm.taobao.org/</span><br></pre></td></tr></table></figure>
+
+<p>添加用户，根据提示输入账号信息：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm adduer</span><br></pre></td></tr></table></figure>
+
+<h2 id="发布-NPM-包"><a href="#发布-NPM-包" class="headerlink" title="发布 NPM 包"></a>发布 NPM 包</h2><p>登陆，根据提示输入用户名和密码：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm login</span><br></pre></td></tr></table></figure>
+
+<p>发布：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm publish</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2020/02/11/mermaid/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2020/02/11/mermaid/" class="post-title-link" itemprop="url">为 Hexo 添加 Mermaid 图表功能</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-11 13:29:06" itemprop="dateCreated datePublished" datetime="2020-02-11T13:29:06+08:00">2020-02-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/tools/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <pre class="mermaid">graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;</pre>
+
+
+<pre class="mermaid">sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!</pre>
+
+
+<pre class="mermaid">gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d</pre>
+
+<pre class="mermaid">gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch</pre>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2020/02/11/elementaryos/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2020/02/11/elementaryos/" class="post-title-link" itemprop="url">Elementary OS 使用心得</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-11 12:36:21" itemprop="dateCreated datePublished" datetime="2020-02-11T12:36:21+08:00">2020-02-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/os/" itemprop="url" rel="index">
+                    <span itemprop="name">系统</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>快速、开源的 Windows / macOS 替代方案。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
+<li><a href="https://www.virtualbox.org/" target="_blank" rel="noopener">VirtualBox</a></li>
+<li><a href="https://elementaryos.cn/" target="_blank" rel="noopener">Elementary OS</a></li>
+</ul>
+<h2 id="使用-apt-add-repository-增加第三方软件包源"><a href="#使用-apt-add-repository-增加第三方软件包源" class="headerlink" title="使用 apt-add-repository 增加第三方软件包源"></a>使用 <code>apt-add-repository</code> 增加第三方软件包源</h2><p>安装某些软件时需要增加第三方软件包源，如 <code>elementary-tweaks</code> 系统调整工具。使用 <code>add-apt-repository</code> 要先安装以下软件包：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install python-software-properties</span><br><span class="line">$ sudo apt-get install software-properties-common</span><br></pre></td></tr></table></figure>
+
+<h2 id="使用-gdebi-安装-deb-软件包"><a href="#使用-gdebi-安装-deb-软件包" class="headerlink" title="使用 gdebi 安装 deb 软件包"></a>使用 <code>gdebi</code> 安装 <code>deb</code> 软件包</h2><p>安装已编译二进制 <code>deb</code> 软件包时，要用到 <code>gdebi</code> 工具：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install gdebi</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-fcitx-小企鹅输入法"><a href="#安装-fcitx-小企鹅输入法" class="headerlink" title="安装 fcitx 小企鹅输入法"></a>安装 <code>fcitx</code> 小企鹅输入法</h2><p>安装软件包及配置工具：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install fcitx fcitx-config-gtk fcitx-pinyin </span><br><span class="line">$ sudo apt-get install fcitx-table-all</span><br><span class="line">$ sudo apt-get install im-config</span><br></pre></td></tr></table></figure>
+
+<p>此时请重启系统，再通过 <code>im-config</code> 命令将 <code>fcitx</code> 设置为默认输入法。  </p>
+<p><img src="http://static.oschina.net/uploads/space/2014/0420/143810_3tva_561214.png" alt="配置输入法"></p>
+<h2 id="安装-elementary-tweaks-系统调整工具"><a href="#安装-elementary-tweaks-系统调整工具" class="headerlink" title="安装 elementary-tweaks 系统调整工具"></a>安装 <code>elementary-tweaks</code> 系统调整工具</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-add-repository -y  ppa:philip.scott/elementary-tweaks</span><br><span class="line">$ sudo apt-get update</span><br><span class="line">$ sudo apt-get install elementary-tweaks</span><br></pre></td></tr></table></figure>
+
+<p>安装完成后在 <strong>系统配置</strong> 中打开，详情请参考 <a href="http://www.elementaryos-fr.org/documentation/customisation/elementary-tweak/" target="_blank" rel="noopener">官方</a></p>
+<h2 id="常用软件包"><a href="#常用软件包" class="headerlink" title="常用软件包"></a>常用软件包</h2><ul>
+<li><a href="http://www.google.cn/chrome/browser/desktop/index.html" target="_blank" rel="noopener">Google Chrome</a></li>
+<li><a href="http://get.opera.com/ftp/pub/opera/desktop/" target="_blank" rel="noopener">Opera</a></li>
+<li><a href="http://www.sublimetext.com" target="_blank" rel="noopener">Sbulime Text</a> </li>
+<li><a href="https://code.visualstudio.com" target="_blank" rel="noopener">Vs Code</a></li>
+<li><a href="https://lnmp.org" target="_blank" rel="noopener">LNMP</a></li>
+<li><a href="https://git-scm.com" target="_blank" rel="noopener">Git</a></li>
+<li><a href="https://nodejs.org" target="_blank" rel="noopener">Node.js</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2020/02/11/mariadb-install/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2020/02/11/mariadb-install/" class="post-title-link" itemprop="url">MariaDB 数据库安装设置</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-11 12:14:57" itemprop="dateCreated datePublished" datetime="2020-02-11T12:14:57+08:00">2020-02-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/database/" itemprop="url" rel="index">
+                    <span itemprop="name">数据库</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="Ubuntu18-系统"><a href="#Ubuntu18-系统" class="headerlink" title="Ubuntu18 系统"></a>Ubuntu18 系统</h3><ol>
+<li><p>设置 MariaDB 仓库</p>
+<p> 默认情况下 MariaDB 的包没有在 Ubuntu 仓库中，请参考 MariaDB 官方进行设置 <a href="https://downloads.mariadb.org/mariadb/repositories/#mirror=neusoft" target="_blank" rel="noopener"><strong>移步</strong></a>。<br> 参考官方设置时请选择有效的仓库镜像地址，下面选择的是清华大学镜像，测试可用。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install software-properties-common</span><br><span class="line">$ sudo apt-key adv --fetch-keys <span class="string">'https://mariadb.org/mariadb_release_signing_key.asc'</span></span><br><span class="line">$ sudo add-apt-repository <span class="string">'deb [arch=amd64,arm64,ppc64el] http://mirror.its.dal.ca/mariadb/repo/10.4/ubuntu bionic main'</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装</p>
+<p> 安装过程中要输入 MariaDB 的 <code>root</code> 密码。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt update</span><br><span class="line">$ sudo apt install mariadb-server</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>基本操作</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 链接</span></span><br><span class="line">$ mysql -u root -p</span><br><span class="line"><span class="comment"># 停止</span></span><br><span class="line">$ sudo /etc/init.d/mysql stop</span><br><span class="line"><span class="comment"># 启动</span></span><br><span class="line">$ sudo /etc/init.d/mysql start</span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">$ sudo /etc/init.d/mysql restart</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><h3 id="设置-MariaDB-开启远程访问"><a href="#设置-MariaDB-开启远程访问" class="headerlink" title="设置 MariaDB 开启远程访问"></a>设置 MariaDB 开启远程访问</h3><ol>
+<li><p>检查有没有设置防火墙或者 iptables 规则</p>
+</li>
+<li><p>检查 3306 端口是否打开</p>
+<p> 检查端口状态，下面输出说明端口只在 <code>127.0.0.1</code> 上监听，所以无法通过其它 IP 访问。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ netstat -an | grep 3306</span><br><span class="line">tcp    0   0  127.0.0.1:3306    0.0.0.0:*     LISTEN</span><br></pre></td></tr></table></figure>
+
+<p> 解决办法：修改 <code>/etc/mysql/my.cnf</code> 文件，打开文件找到下面一行内容。<br> 可以将 <code>127.0.0.1</code> 换成合适的 IP，建议直接将此行注释掉。</p>
+ <figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Instead of skip-networking the default is now to listen only on</span></span><br><span class="line"><span class="comment"># localhost which is more compatible and is not less secure.</span></span><br><span class="line"><span class="attr">bind-address</span>  = <span class="number">127.0</span>.<span class="number">0.1</span></span><br></pre></td></tr></table></figure>
+
+<p> 重启 MariaDB 服务，再次检测：</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo /etc/init.d/mysql restart</span><br><span class="line">$ netstat -an | grep 3306</span><br><span class="line">tcp    0   0  0.0.0.0:3306    0.0.0.0:*     LISTEN</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>给 MariaDB 用户 root 分配远程访问权限</p>
+<p> 测试时如果输出如下内容，说明不允许链接服务器。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ mysql -h 192.168.0.101 -u root -p</span><br><span class="line">Enter password:</span><br><span class="line">ERROR 1130 (00000): Host <span class="string">'Ubuntu-Fvlo.Server'</span> is not allowed to connect to this MySQL server</span><br></pre></td></tr></table></figure>
+
+<p> 解决办法：给 root 用户分配远程访问的权限，密码设置为 <code>123456</code>。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ mysql -u root -p</span><br><span class="line">Enter password:</span><br><span class="line">Welcome to the MariaDB monitor.  Commands end with ; or \g.</span><br><span class="line">Your MariaDB connection id is 28</span><br><span class="line">Server version: 5.5.51-MariaDB-1~trusty mariadb.org binary distribution</span><br><span class="line">......</span><br><span class="line">MariaDB [(none)]&gt; grant all on *.* to root@<span class="string">'%'</span> identified by <span class="string">'123456'</span>;</span><br><span class="line">Query OK, 0 rows affected (0.00 sec)</span><br></pre></td></tr></table></figure>
+
+<p> 再次测试，成功。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ mysql -h 192.168.0.101 -u root -p</span><br><span class="line">Enter password:</span><br><span class="line">Welcome to the MariaDB monitor.  Commands end with ; or \g.</span><br><span class="line">Your MariaDB connection id is 28</span><br><span class="line">Server version: 5.5.51-MariaDB-1~trusty mariadb.org binary distribution</span><br><span class="line">......</span><br><span class="line">MariaDB [(none)]&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>CentOS6.6 要关闭防火强<br><code>service iptables stop</code> # 停止<br><code>chkconfig iptables off</code> # 禁用  </p>
+</blockquote>
+</li>
+</ol>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://www.cnblogs.com/beanmoon/p/3173924.html" target="_blank" rel="noopener">MySQL 数据库无法远程连接的解决办法</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2020/02/11/cmder-windows/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2020/02/11/cmder-windows/" class="post-title-link" itemprop="url">Cmder Windows 系统命令行工具</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-11 11:59:14" itemprop="dateCreated datePublished" datetime="2020-02-11T11:59:14+08:00">2020-02-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/tools/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Cmder-安装"><a href="#Cmder-安装" class="headerlink" title="Cmder 安装"></a>Cmder 安装</h2><ul>
+<li><a href="http://cmder.net" target="_blank" rel="noopener">Cmder</a></li>
+<li><a href="https://github.com/cmderdev/cmder" target="_blank" rel="noopener">Cmder In GitHub</a></li>
+</ul>
+<p>从官网下载 <code>Cmder</code> 解压到任意目录即完成安装。</p>
+<h2 id="添加右键"><a href="#添加右键" class="headerlink" title="添加右键"></a>添加右键</h2><p>以管理员方式打开命令行窗口，进入 <code>Cmder</code> 安装目录，即 <code>Cmder.exe</code> 所在目录，执行以下操作。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cmder.exe /REGISTER ALL</span><br></pre></td></tr></table></figure>
+
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a href="http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/" target="_blank" rel="noopener">Windows 下必备神器之 Cmder</a></li>
+<li><a href="http://bg.biedalian.com/2014/09/11/cmder.html" target="_blank" rel="noopener">逆天神器 Cmder</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://wewelove.github.io/fcoder/2019/04/15/redmine-installation/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/fcoder/images/avatar.png">
+      <meta itemprop="name" content="Hao">
+      <meta itemprop="description" content="好好学习，天天向上">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="思学 - Sixue">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/fcoder/2019/04/15/redmine-installation/" class="post-title-link" itemprop="url">Redmine 项目管理 - 手动安装</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-04-15 10:24:05" itemprop="dateCreated datePublished" datetime="2019-04-15T10:24:05+08:00">2019-04-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-27 21:04:04" itemprop="dateModified" datetime="2022-01-27T21:04:04+08:00">2022-01-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/fcoder/categories/project/" itemprop="url" rel="index">
+                    <span itemprop="name">项目管理</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><ul>
+<li><p>系统 Ubuntu18.04 Server LTS</p>
+</li>
+<li><p>系统没有安装 Apache 或 MySQL</p>
+</li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
+<li>安装APACHE2</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install apache2 libapache2-mod-passenger</span><br><span class="line"></span><br><span class="line">sudo systemctl stop apache2.service</span><br><span class="line">sudo systemctl start apache2.service</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> apache2.service</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>安装数据库MYSQL</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-server</span><br><span class="line"></span><br><span class="line">sudo systemctl stop mysql.service</span><br><span class="line">sudo systemctl start mysql.service</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> mysql.service</span><br></pre></td></tr></table></figure>
+
+<p>运行以下命令以保护MYSQL服务器的安全：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo mysql_secure_installation         </span><br><span class="line"></span><br><span class="line">New password: (输入密码)</span><br><span class="line">Re-enter new password: (重复输入)</span><br><span class="line">Remove anonymous users? [Y/n]: Y</span><br><span class="line">Disallow root login remotely? [Y/n]: Y</span><br><span class="line">Remove <span class="built_in">test</span> database and access to it? [Y/n]:  Y</span><br><span class="line">Reload privilege tables now? [Y/n]:  Y</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>创建 REDMINE 数据库</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo mysql -u root -p</span><br><span class="line"></span><br><span class="line">mysql&gt; create database redmine;</span><br><span class="line">mysql&gt; create user <span class="string">'redmine'</span>@<span class="string">'localhost'</span> identified by <span class="string">'123456'</span>;</span><br><span class="line">mysql&gt; grant all on redmine.* to <span class="string">'redmine'</span>@<span class="string">'localhost'</span> identified by <span class="string">'123456'</span> with grant option;</span><br><span class="line">mysql&gt; flush privileges;</span><br><span class="line">mysql&gt; <span class="built_in">exit</span>;</span><br></pre></td></tr></table></figure>
+
+<p>创建用户或授权时有可能报如下错误：</p>
+<p>ERROR 1819 (HY000): Your password does not satisfy the current policy requirements<br>这是由于密码太简单，不满足安全策略造成的。查看MYSQL初始的密码策略：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; show variables like <span class="string">'validate_password%'</span>;</span><br><span class="line">+--------------------------------------+-------+</span><br><span class="line">| Variable_name                        | Value |</span><br><span class="line">+--------------------------------------+-------+</span><br><span class="line">| validate_password_check_user_name    | OFF   |</span><br><span class="line">| validate_password_dictionary_file    |       |</span><br><span class="line">| validate_password_length             | 6     |</span><br><span class="line">| validate_password_mixed_case_count   | 1     |</span><br><span class="line">| validate_password_number_count       | 1     |</span><br><span class="line">| validate_password_policy             | LOW   |</span><br><span class="line">| validate_password_special_char_count | 1     |</span><br><span class="line">+--------------------------------------+-------+</span><br><span class="line">7 rows <span class="keyword">in</span> <span class="built_in">set</span> (0.41 sec)</span><br></pre></td></tr></table></figure>
+
+<p>解决办法：1. 设置更复杂的密码，2. 降低安全策略：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> global validate_password_policy=LOW;</span><br><span class="line"><span class="built_in">set</span> global validate_password_length=6;</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>安装REDMINE</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install redmine redmine-mysql</span><br></pre></td></tr></table></figure>
+
+<p><img src="/fcoder/images/npm-package-publish-01.webp" alt=""></p>
+<p><img src="/fcoder/images/npm-package-publish-02.webp" alt=""></p>
+<p><img src="/fcoder/images/npm-package-publish-03.webp" alt=""></p>
+<p><img src="/fcoder/images/npm-package-publish-04.webp" alt=""></p>
+<p>在安装过程中，系统将要求配置REDMINE，选择YES，然后继续。数据库选择MYSQL；接下来为REMIND实例创建一个密码以在数据库中注册，密码为上面创建的数据库用户的密码；接下来，安装GEM、BLUNDLER软件包。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo gem update</span><br><span class="line">sudo gem install bundler</span><br></pre></td></tr></table></figure>
+
+<p>更新过程中会报如下错误，不过暂时可以忽略。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Fetching: mysql2-0.5.3.gem (100%)</span><br><span class="line">Building native extensions. This could take a <span class="keyword">while</span>...</span><br><span class="line">ERROR:  Error installing mysql2:</span><br><span class="line">    ERROR: Failed to build gem native extension.</span><br><span class="line"></span><br><span class="line">    current directory: /var/lib/gems/2.5.0/gems/mysql2-0.5.3/ext/mysql2</span><br><span class="line">/usr/bin/ruby2.5 -r ./siteconf20200414-8181-7u476x.rb extconf.rb</span><br><span class="line">mkmf.rb can<span class="string">'t find header files for ruby at /usr/lib/ruby/include/ruby.h</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">extconf failed, exit code 1</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Gem files will remain installed in /var/lib/gems/2.5.0/gems/mysql2-0.5.3 for inspection.</span></span><br><span class="line"><span class="string">Results logged to /var/lib/gems/2.5.0/extensions/x86_64-linux/2.5.0/mysql2-0.5.3/gem_make.out</span></span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>为REDMINE设置APACHE2站点。首先运行以下命令创建指向REDMINE文档根目录的软链接：</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /usr/share/redmine/public /var/www/html/redmine</span><br></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>配置APACHE2</li>
+</ol>
+<p>运行以下命令以打开PASSENGER.CONF文件：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/apache2/mods-available/passenger.conf</span><br></pre></td></tr></table></figure>
+
+<p>然后将突出显示的行添加到文件中并保存：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;IfModule mod_passenger.c&gt;</span><br><span class="line">    PassengerDefaultUser www-data</span><br><span class="line">    PassengerRoot &#x2F;usr&#x2F;lib&#x2F;ruby&#x2F;vendor_ruby&#x2F;phusion_passenger&#x2F;locations.ini</span><br><span class="line">    PassengerDefaultRuby &#x2F;usr&#x2F;bin&#x2F;ruby</span><br><span class="line">&lt;&#x2F;IfModule&gt;</span><br></pre></td></tr></table></figure>
+
+<p>为REDMINE配置APACHE2站点配置文件。该文件将控制用户访问REDMINE内容的方式。运行以下命令以创建一个名为REDMINE.CONF的新配置文件：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/apache2/sites-available/redmine.conf</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">     ServerAdmin redmime@demo.com</span><br><span class="line">     DocumentRoot &#x2F;var&#x2F;www&#x2F;html&#x2F;redmine</span><br><span class="line">     ServerName demo.com</span><br><span class="line">     ServerAlias redmine.demo.com</span><br><span class="line"></span><br><span class="line">     &lt;Directory &#x2F;var&#x2F;www&#x2F;html&#x2F;redmine&gt;</span><br><span class="line">         RailsBaseURI &#x2F;redmine</span><br><span class="line">         PassengerResolveSymlinksInDocumentRoot on</span><br><span class="line">     &lt;&#x2F;Directory&gt;</span><br><span class="line"></span><br><span class="line">     ErrorLog $&#123;APACHE_LOG_DIR&#125;&#x2F;error.log</span><br><span class="line">     CustomLog $&#123;APACHE_LOG_DIR&#125;&#x2F;access.log combined</span><br><span class="line"></span><br><span class="line">&lt;&#x2F;VirtualHost&gt;</span><br></pre></td></tr></table></figure>
+
+<ol start="7">
+<li>启用REDMINE站点</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo a2ensite redmine.conf</span><br><span class="line">sudo systemctl restart apache2.service</span><br></pre></td></tr></table></figure>
+
+<p>访问页面：<a href="http://redmine.demo.com/" target="_blank" rel="noopener">http://redmine.demo.com/</a></p>
+<p><img src="/fcoder/images/npm-package-publish-05.webp" alt=""></p>
+<p>登录账户密码：admin/admin</p>
+<p><img src="/fcoder/images/npm-package-publish-06.webp" alt=""></p>
+<p>首次登陆要求修改密码</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+  </div>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/fcoder/page/2/">2</a><a class="page-number" href="/fcoder/page/3/">3</a><a class="extend next" rel="next" href="/fcoder/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Hao"
+      src="/fcoder/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Hao</p>
+  <div class="site-description" itemprop="description">好好学习，天天向上</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/fcoder/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/fcoder/categories/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/fcoder/tags/">
+          
+        <span class="site-state-item-count">38</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wewelove" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;wewelove" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:wewelove88@gmail.com" title="E-Mail → mailto:wewelove88@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2015 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">思学</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.1
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/fcoder/lib/anime.min.js"></script>
+  <script src="/fcoder/lib/velocity/velocity.min.js"></script>
+  <script src="/fcoder/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/fcoder/js/utils.js"></script>
+
+<script src="/fcoder/js/motion.js"></script>
+
+
+<script src="/fcoder/js/schemes/pisces.js"></script>
+
+
+<script src="/fcoder/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/fcoder/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'neutral',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+
+
+</body>
+</html>
